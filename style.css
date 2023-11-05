@@ -4,6 +4,7 @@ body{
 }
 .container{
     background-color:rgb(255, 244,231);
+    padding: 40px;
 }
 .parent-div1{
     text-align: center;
@@ -14,48 +15,84 @@ body{
     border-radius: 5px;
     padding: 5px;
 }
+.key-button-2{
+    text-decoration: none;
+    background-color:rgb(255,144 , 14) ;
+    border-radius: 5px;
+    padding:5px;
+}
 
 .first-section{
-    border: 5px solid red;
+    /* border: 5px solid red; */
     min-height: 50vh;
     padding: 5px;
 }
 
 .parent-div{
-    border: 5px solid green;
+    /* border: 5px solid green; */
     min-height: 50vh;
     padding: 5px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    /* justify-content: space-between; */
     column-gap: 5px;
 }
 
 .child-div-1{
-    border: 5px solid goldenrod;
+    /* border: 5px solid goldenrod; */
     display: grid;
     padding: 5px;
     grid-template-columns: repeat(2, 1fr);
+    align-items: center;
     column-gap: 10px;
     row-gap: 15px;
 }
 
 .mini{
-    border: 5px solid blue;
+    /* border: 5px solid blue; */
     height: 100%;
     width: auto;
 }
 
 .child-div-2{
-    border: 5px solid gold;
+    align-items: ;
+    /* border: 5px solid gold; */
     /* width: 50%; */
 }
-.child-div-3{
+.child-div-3 img{
     /* display: block; */
-    width: 10%;
+
+    height: auto;
+    width: 100%;
     /* margin:auto */
-    /* padding: 50%; */
+    /* padding: 05px; */
+}
+.text-1{
+    color:rgb(144, 144, 144) ;
+}
+#text-2{
+    color:black;
+    size: 700;
+}
+.text-3{
+    color:rgb(255,144 , 14)
 }
 
+.p-div{
+    display: flex;
+
+}
+.new-content{
+    /* display: grid; */
+    /* grid-template-columns: repeat(1,1fr); */
+    border-radius: solid 15px rgb(90, 88, 88);
+    gap:5px;
+}
+#sayem{
+    border: solid  rgb(90, 88,88 );
+    box-shadow: 5px;
+    color: bisque;
+}
 
 @media screen and (max-width: 768px) {  
     .parent-div{
