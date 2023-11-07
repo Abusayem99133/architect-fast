@@ -21,7 +21,11 @@ body{
     border-radius: 5px;
     padding:5px;
 }
-
+.key-button-3{
+    text-decoration: none;
+    border-radius: 5px;
+    background-color:rgb(255,144 , 14);
+}
 .first-section{
     /* border: 5px solid red; */
     min-height: 50vh;
@@ -54,11 +58,11 @@ body{
     width: auto;
 }
 
-.child-div-2{
-    align-items: ;
+/* .child-div-2{ */
+    /* align-items: */
     /* border: 5px solid gold; */
     /* width: 50%; */
-}
+
 .child-div-3 img{
     /* display: block; */
 
@@ -85,15 +89,32 @@ body{
 .new-content{
     /* display: grid; */
     /* grid-template-columns: repeat(1,1fr); */
-    border-radius: solid 15px rgb(90, 88, 88);
-    gap:5px;
+    /* display: flex; */
+    margin-top: 50px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px gray;
+    /* border-radius: solid 15px rgb(90, 88, 88); */
+    /* gap:20px; */
 }
 #sayem{
     border: solid  rgb(90, 88,88 );
     box-shadow: 5px;
-    color: bisque;
+    color: rgb(46, 35, 22);
 }
-
+.c-div-2 img{
+    /* margin-left: 5%;
+    margin-right: 5%;
+    padding: 20px;
+    box-shadow: 10px 10px 40px gray; */
+height:auto;
+width:90%;
+}
+.new-div{
+    padding: 20px;
+    box-shadow: 10px 10px 40px gray; 
+}
 @media screen and (max-width: 768px) {  
     .parent-div{
         grid-template-columns: repeat(1, 1fr);
